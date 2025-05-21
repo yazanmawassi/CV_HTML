@@ -1,0 +1,71 @@
+@page {
+  size: A4;
+  margin: 2cm;
+}
+
+body {
+  width: 210mm;
+  height: 297mm;
+  margin: auto;
+  background: white;
+  box-shadow: 0 0 5px rgba(0,0,0,0.1);
+  padding: 2cm;
+}
+
+
+
+
+/* Allgemeines Seitenlayout */
+/*body {
+  background-color: #f5f5f5;
+  font-family: Arial, sans-serif;
+  padding: 40px;
+  color: #333;
+  line-height: 1.6;
+}*/
+
+/* Hauptüberschrift */
+h1 {
+  color: rgb(83, 73, 230);
+  text-align: center;
+  font-size: 40px;
+  margin-bottom: 10px;
+}
+
+/* Abschnittsüberschriften */
+h2 {
+  color: rgb(83, 73, 230);
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+/* Kontaktinformationen */
+#Anschrift {
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 30px;
+  line-height: 1.5;
+}
+
+/* Standard-Absätze */
+p {
+  font-size: 18px;
+  text-align: left;
+  margin: 5px 0;
+}
+
+/* Formatierung für Abschnitte */
+.paragraf {
+  background-color: white;
+  padding: 20px;
+  margin-bottom: 30px;
+  border-radius: 10px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+}
+
+/* Optional: Bild */
+img {
+  width: 150px;
+  display: block;
+  margin: 20px auto;
+}
